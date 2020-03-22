@@ -18,3 +18,15 @@ Tool in order to resume upload of a local folder to google drive (uploading only
 ## How To Use:
 
 ``python main.py drive_folder_id local_folder_path``
+
+
+## Watch Out
+
+It could have an indesirable behaviour if you have spaces in the name of files.
+The algorithm retreat the names of type:
+IMG_132 (2).JPG into IMG_132.JPG
+
+## Next Steps
+
+* Multithreading upload / Batch upload
+* Include a retreat_option (to retreat file names IMG_132 (2).JPG into IMG_132.JPG)
