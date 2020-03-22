@@ -30,3 +30,4 @@ IMG_132 (2).JPG into IMG_132.JPG
 
 * Multithreading upload / Batch upload
 * Include a retreat_option (to retreat file names IMG_132 (2).JPG into IMG_132.JPG)
+* Add duplicates cleaning
